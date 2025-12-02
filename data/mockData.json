@@ -1,0 +1,220 @@
+{
+  "user": {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "beltId": "SB-12345"
+  },
+  "todayStats": {
+    "postureScore": 78,
+    "badPostureTime": 45,
+    "alertsCount": 3,
+    "exercisesCompleted": 2
+  },
+  "postureHistory": [
+    { "date": "2024-12-02", "score": 78, "badTime": 45, "alerts": 3 },
+    { "date": "2024-12-01", "score": 72, "badTime": 62, "alerts": 5 },
+    { "date": "2024-11-30", "score": 85, "badTime": 28, "alerts": 1 },
+    { "date": "2024-11-29", "score": 68, "badTime": 78, "alerts": 7 },
+    { "date": "2024-11-28", "score": 81, "badTime": 38, "alerts": 2 },
+    { "date": "2024-11-27", "score": 75, "badTime": 52, "alerts": 4 },
+    { "date": "2024-11-26", "score": 82, "badTime": 35, "alerts": 2 }
+  ],
+  "recentAlerts": [
+    {
+      "id": 1,
+      "time": "2:45 PM",
+      "type": "Bad Posture",
+      "status": "Resolved",
+      "message": "Bad posture detected for 12 minutes"
+    },
+    {
+      "id": 2,
+      "time": "1:20 PM",
+      "type": "Over Bending",
+      "status": "Resolved",
+      "message": "Over bending detected for 8 minutes"
+    },
+    {
+      "id": 3,
+      "time": "11:30 AM",
+      "type": "Bad Posture",
+      "status": "Not Resolved",
+      "message": "Bad posture detected for 25 minutes"
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "name": "Lower Back Stretch",
+      "category": "Flexibility",
+      "difficulty": "Easy",
+      "description": "Gentle stretch to relieve lower back tension",
+      "duration": 2,
+      "reps": "3 sets of 30 seconds",
+      "instructions": [
+        "Lie on your back with knees bent",
+        "Gently pull one knee towards your chest",
+        "Hold for 30 seconds, then switch legs",
+        "Repeat 3 times on each side"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Shoulder Roll",
+      "category": "Posture",
+      "difficulty": "Easy",
+      "description": "Release tension from shoulders",
+      "duration": 3,
+      "reps": "2 sets of 15 reps",
+      "instructions": [
+        "Stand with feet shoulder-width apart",
+        "Roll shoulders backward 15 times",
+        "Roll shoulders forward 15 times",
+        "Repeat 2 times"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cat-Cow Stretch",
+      "category": "Flexibility",
+      "difficulty": "Medium",
+      "description": "Mobilize spine and improve flexibility",
+      "duration": 5,
+      "reps": "2 sets of 10 reps",
+      "instructions": [
+        "Get on hands and knees",
+        "Arch back, look up (cow pose)",
+        "Round back, tuck chin (cat pose)",
+        "Alternate 10 times, repeat 2 sets"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Plank Hold",
+      "category": "Pain Relief",
+      "difficulty": "Medium",
+      "description": "Strengthen core muscles",
+      "duration": 3,
+      "reps": "3 sets of 30-60 seconds",
+      "instructions": [
+        "Get into plank position",
+        "Keep body straight from head to heels",
+        "Hold for 30-60 seconds",
+        "Rest 30 seconds, repeat 3 times"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Neck Stretches",
+      "category": "Posture",
+      "difficulty": "Easy",
+      "description": "Relieve neck tension",
+      "duration": 2,
+      "reps": "2 sets of 4 directions",
+      "instructions": [
+        "Turn head left and hold for 15 seconds",
+        "Turn head right and hold for 15 seconds",
+        "Tilt towards each shoulder for 15 seconds",
+        "Repeat sequence 2 times"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Spinal Rotation",
+      "category": "Flexibility",
+      "difficulty": "Hard",
+      "description": "Improve spinal mobility",
+      "duration": 4,
+      "reps": "2 sets of 12 reps",
+      "instructions": [
+        "Sit upright with feet on floor",
+        "Cross arms over chest",
+        "Slowly rotate torso to the left",
+        "Hold 2 seconds, return to center",
+        "Repeat on right side, 12 times each"
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "id": 1,
+      "category": "General Posture",
+      "title": "Maintain Neutral Spine",
+      "description": "Keep your spine in its natural S-curve position. Avoid slouching or overly arching your back.",
+      "tag": "Prevention"
+    },
+    {
+      "id": 2,
+      "category": "General Posture",
+      "title": "Shoulders Back and Down",
+      "description": "Your shoulders should be relaxed and naturally positioned. Rolling them back helps maintain proper alignment.",
+      "tag": "Prevention"
+    },
+    {
+      "id": 3,
+      "category": "Office Work",
+      "title": "Monitor at Eye Level",
+      "description": "Place your computer monitor at arm's length distance and at eye level to avoid straining your neck.",
+      "tag": "Prevention"
+    },
+    {
+      "id": 4,
+      "category": "Office Work",
+      "title": "Take Regular Breaks",
+      "description": "Stand up and move every 30 minutes. This helps prevent stiffness and maintains circulation.",
+      "tag": "Prevention"
+    },
+    {
+      "id": 5,
+      "category": "Standing & Walking",
+      "title": "Engage Your Core",
+      "description": "Gently tighten your abdominal muscles. This provides support for your spine while standing or walking.",
+      "tag": "Prevention"
+    },
+    {
+      "id": 6,
+      "category": "Pain Relief",
+      "title": "Apply Heat Therapy",
+      "description": "Use your smart belt's heat feature for 15-20 minutes when experiencing back discomfort.",
+      "tag": "Pain Relief"
+    },
+    {
+      "id": 7,
+      "category": "Pain Relief",
+      "title": "Gentle Massage",
+      "description": "Activate the massage feature on your smart belt for muscle relaxation after long sitting periods.",
+      "tag": "Pain Relief"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "timestamp": "2024-12-02T14:45:00",
+      "message": "Bad posture detected for 12 minutes while sitting",
+      "type": "alert",
+      "read": false
+    },
+    {
+      "id": 2,
+      "timestamp": "2024-12-02T13:20:00",
+      "message": "Congratulations! You completed 'Lower Back Stretch' exercise",
+      "type": "success",
+      "read": false
+    },
+    {
+      "id": 3,
+      "timestamp": "2024-12-02T11:30:00",
+      "message": "Over bending detected. Consider taking a break",
+      "type": "warning",
+      "read": true
+    },
+    {
+      "id": 4,
+      "timestamp": "2024-12-01T16:00:00",
+      "message": "Daily posture score updated: 72/100",
+      "type": "info",
+      "read": true
+    }
+  ]
+}
